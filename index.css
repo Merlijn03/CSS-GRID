@@ -1,0 +1,207 @@
+@media screen and (min-width: 0em) {
+  body {
+    padding: 2em;
+    background-color: #fffffe;
+    background-image: url("bg.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.6em;
+    color: #333333;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+  }
+
+  header {
+    background: rgba(255, 255, 254, 0.9);
+    grid-column: 1/3;
+    border-radius: 15px;
+    padding-left: 20px;
+  }
+
+  main {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 1fr;
+    grid-column: 1/3
+  }
+
+  section {
+    background: rgba(255, 255, 254, 0.9);
+    border-radius: 15px;
+    padding-left: 20px;
+  }
+
+  aside {
+    background: rgba(255, 255, 254, 0.9);
+    border-radius: 15px;
+    padding-left: 20px;
+  }
+
+  footer {
+    background: rgba(255, 255, 254, 0.9);
+    border-radius: 15px;
+    padding-left: 20px;
+  }
+
+  h1 {
+    color: #db633b;
+    font-weight: 600;
+    font-size: 36px;
+    font-family: "Lato";
+  }
+
+  h3 {
+    color: #e37652;
+    font-weight: normal;
+    font-size: 26px;
+    font-family: "Lato";
+  }
+}
+
+@media screen and (min-width: 38em) {
+  body {
+    padding: 2em;
+    background-color: #fffffe;
+    background-image: url("bg.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.6em;
+    color: #333333;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+  }
+
+  header {
+    background: rgba(255, 255, 254, 0.9);
+    grid-column: 1/3;
+    border-radius: 15px;
+    padding-left: 20px;
+  }
+
+  main {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/3
+  }
+
+  section {
+    background: rgba(255, 255, 254, 0.9);
+    border-radius: 15px;
+    padding-left: 20px;
+  }
+
+  aside {
+    background: rgba(255, 255, 254, 0.9);
+    border-radius: 15px;
+    padding-left: 20px;
+  }
+
+  footer {
+    background: rgba(255, 255, 254, 0.9);
+    border-radius: 15px;
+    padding-left: 20px;
+  }
+
+  h1 {
+    color: #db633b;
+    font-weight: 600;
+    font-size: 36px;
+    font-family: "Lato";
+  }
+
+  h3 {
+    color: #e37652;
+    font-weight: normal;
+    font-size: 26px;
+    font-family: "Lato";
+  }
+}
+
+@media screen and (min-width: 80em) {
+  body {
+    padding: 2em;
+    background-color: #fffffe;
+    background-image: url("bg.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.6em;
+    color: #333333;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+  }
+
+  header {
+    background: rgba(255, 255, 254, 0.9);
+    grid-column: 1/3;
+    border-radius: 15px;
+    padding-left: 20px;
+  }
+
+  main {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1/3
+  }
+
+  section {
+    background: rgba(255, 255, 254, 0.9);
+    border-radius: 15px;
+    padding-left: 20px;
+  }
+
+  aside {
+    background: rgba(255, 255, 254, 0.9);
+    border-radius: 15px;
+    padding-left: 20px;
+  }
+
+  footer {
+    background: rgba(255, 255, 254, 0.9);
+    border-radius: 15px;
+    padding-left: 20px;
+  }
+
+  h1 {
+    color: #db633b;
+    font-weight: 600;
+    font-size: 36px;
+    font-family: "Lato";
+  }
+
+  h3 {
+    color: #e37652;
+    font-weight: normal;
+    font-size: 26px;
+    font-family: "Lato";
+  }
+
+  #breed {
+    width: 308%;
+  }
+}
